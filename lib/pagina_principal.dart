@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app_inicial/pagina_mascotas.dart';
 
+/// Este widget muestra un mensaje de bienvenida y un botón que navega a la
+/// página `PaginaListaMascotas` cuando se presiona
 class PaginaPrincipal extends StatelessWidget {
   const PaginaPrincipal({super.key, required this.titulo});
 

@@ -1,5 +1,13 @@
 import 'package:flutter/material.dart';
 
+/// Representa la página de formulario de adopción
+///
+/// Parámetros:
+/// - [nombreMascota]: El nombre de la mascota que se va a adoptar
+///
+/// El formulario valida que todos los campos estén completos y que el
+/// correo electrónico tenga un formato válido antes de permitir el envío
+
 class PaginaFormularioAdopcion extends StatelessWidget {
   final String nombreMascota;
 

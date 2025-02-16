@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app_inicial/pagina_adopcion.dart';
 
+// Representa una página con una lista de mascotas disponibles para adopción
 class PaginaListaMascotas extends StatelessWidget {
   const PaginaListaMascotas({super.key});
 
   @override
   Widget build(BuildContext context) {
+    // Lista de mascotas con sus detalles
     final List<Map<String, String>> mascotas = [
       {'nombre': 'Buddy', 'imagen': 'assets/dog1.jpg', 'edad': '2 años', 'genero': 'Macho'},
       {'nombre': 'Mittens', 'imagen': 'assets/cat1.jpg', 'edad': '1 año', 'genero': 'Hembra'},
@@ -29,6 +31,7 @@ class PaginaListaMascotas extends StatelessWidget {
           return Card(
             child: Column(
               children: [
+                // Muestra la imagen de la mascota
                 Expanded(
                   child: Image.asset(
                     mascotas[index]['imagen']!,
@@ -36,6 +39,7 @@ class PaginaListaMascotas extends StatelessWidget {
                     width: double.infinity,
                   ),
                 ),
+                // Muestra los detalles de la mascota
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Column(
@@ -49,6 +53,7 @@ class PaginaListaMascotas extends StatelessWidget {
                     ],
                   ),
                 ),
+                // Botón para adoptar la mascota
                 ElevatedButton(
                   onPressed: () {
                     Navigator.push(
