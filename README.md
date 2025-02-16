@@ -1,16 +1,12 @@
-# flutter_app_inicial
+# Adopta una Mascota
 
-A new Flutter project.
+Este es un proyecto de Flutter que permite a los usuarios ver una lista de mascotas disponibles para adopción y completar un formulario para adoptar una mascota.
 
-## Getting Started
+## Estructura del Proyecto
 
-This project is a starting point for a Flutter application.
+El proyecto está compuesto por las siguientes pantallas:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **main.dart**: Punto de entrada de la aplicación
+2. **pagina_principal.dart**: Pantalla principal que muestra un mensaje de bienvenida y un botón para ver la lista de mascotas
+3. **pagina_mascotas.dart**: Pantalla que muestra una lista de mascotas disponibles para adopción
+4. **pagina_adopcion.dart**: Pantalla con un formulario para adoptar una mascota
